@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "automine",
+  "version": "1.0.0",
+  "name": "AutoMine",
+  "description": "Zaznacz obszar dwoma punktami (jak WorldEdit) i kop go automatycznie. Naprawia narzedzie komenda /repairall przy 150 wytrzymalosci.",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.automine.AutoMineClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
